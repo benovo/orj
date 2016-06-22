@@ -1,0 +1,81 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "a300bf58072c531071356880f915be9e",
+    "content-hash": "879773a0cd363128dfce39e106d23ec5",
+    "packages": [
+        {
+            "name": "skautis/skautis",
+            "version": "2.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/skaut/Skautis.git",
+                "reference": "79d513fcee78038c5a3c0414f5ee43f4d2ee7934"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/skaut/Skautis/zipball/79d513fcee78038c5a3c0414f5ee43f4d2ee7934",
+                "reference": "79d513fcee78038c5a3c0414f5ee43f4d2ee7934",
+                "shasum": ""
+            },
+            "require": {
+                "ext-soap": "*",
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "fabpot/php-cs-fixer": "@stable",
+                "mockery/mockery": "0.9.*",
+                "phpunit/phpunit": "4.5.*"
+            },
+            "suggest": {
+                "skautis/nette": "Integrace Skautis do Nette",
+                "skautis/skautis-bundle": "Integrace Skautis do Symfony"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Skautis\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "František Hána",
+                    "homepage": "https://github.com/sinacek"
+                },
+                {
+                    "name": "Jindřich Pilař",
+                    "homepage": "https://github.com/JindrichPilar"
+                }
+            ],
+            "description": "Library for API calls to SkautIS",
+            "homepage": "https://github.com/skaut/Skautis",
+            "keywords": [
+                "api",
+                "skaut",
+                "skautis",
+                "soap",
+                "wsdl"
+            ],
+            "time": "2015-12-06 10:58:54"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "RC",
+    "stability-flags": {
+        "skautis/skautis": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">= 5.3.0"
+    },
+    "platform-dev": []
+}
